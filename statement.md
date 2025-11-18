@@ -1,91 +1,79 @@
-# Smart Academic Planner & Load Calculator  
-## Project Statement Document
+Smart Academic Planner & Load Calculator
+Project Statement Document
 
-## 📌 Problem Statement
-Students often struggle to manage multiple academic responsibilities such as assignments, quizzes, exams, and projects.  
+Problem Statement ????
+Managing assignments, quizzes, exams, and projects throughout school proves to be a challenge for many students.
 Common challenges include:
-- Tracking deadlines across subjects  
-- Estimating the time required for each task  
-- Understanding which tasks carry higher workload  
-- Prioritizing tasks effectively  
-- Planning a structured study schedule  
+- Tracking deadlines across subjects
+- Estimating the time required for each task
+- Understanding which tasks have a higher workload
+- Prioritizing tasks effectively
 
-Without a clear system, students experience stress, last-minute rush, and inconsistent productivity.  
+- Planning a structured study schedule
+
+Incorrect or no system leads to stress, last-minute rush, and inconsistent productivity for students.
+
 There is a need for a **simple, rule-based** that helps students plan their academics efficiently.
 
----
+Nwachukwu: ---
+Project Scope
+The following are included in the scope of the **Smart Academic Planner**:
+Included
+User account creation and login
+- Creating assignments or quizzes, projects, or exams etc.
+• Storing tasks with JSON
+- Load calculation by:
+- Task difficulty
+- Estimated hours
+- Deadline urgency
+Load classification: Low, Moderate, High, Overload
+Generate a daily study plan through logical rules.
 
-## 📘 Scope of the Project
-The scope of the **Smart Academic Planner** includes the following:
-
-### **Included**
-- User account creation and login  
-- Adding tasks (assignments, quizzes, projects, exams, etc.)  
-- Storing tasks using JSON  
-- Load calculation using:
-  - Task difficulty  
-  - Estimated hours  
-  - Deadline urgency  
-- Categorizing load: Low, Moderate, High, Overload  
-- Generating a daily study plan using logical rules  
 - Exporting:
-  - Tasks as CSV  
-  - Study plan as PDF  
+
+- Tasks as CSV
+
+- Study plan as PDF
 - Fully modular Python code
-
 ---
 
-## 🎯 Target Users
-The project is intended for:
+Target Users
 
-- **College Students** managing multiple subjects & deadlines  
-- **School Students** preparing for tests, assignments, and projects  
-- **Learners in coaching institutes** planning study routines  
-- **Anyone needing a structured academic planning tool**  
+Target audience for the project:
 
-The tool is especially helpful for students handling high workload semesters.
+- **College Students** managing multiple subjects & deadlines
 
----
+- **School Students** working towards tests, assignments, and projects
+- **Learners in coaching institutes** planning study routines
+- Anyone requiring a structured academic planning tool
 
-## 🚀 High-Level Features
-
-### **1. User Management**
-- Register new users  
-- Login using stored credentials  
-- Separate data for each user  
-
-### **2. Task Management**
+It is particularly useful for students dealing with high-workload semesters.
+-
+High-Level Features
+**1. User Management
+- Handle user registrations
+- Login using stored credentials
+- Separate data for each user
+**2. Task Management **
 - Add tasks with:
-  - Name  
-  - Course  
-  - Difficulty  
-  - Hours required  
-  - Deadline  
-  - Priority  
-- View all tasks  
-- Duplicate tasks  
-- Delete tasks  
+- Name
 
-### **3. Load Calculation Engine**
-- Rule-based calculation using:
-  - Difficulty  
-  - Hours required  
-  - Days remaining  
-- Classifies tasks into:
-  - Low  
-  - Moderate  
-  - High  
-  - Overload  
+Course
+- Difficulty
+- Hours required
+- Deadline
+- Priority
+- View all tasks
+- Redundant work
+- Delete tasks
+**3. Load Calculation Engine
 
-### **4. Study Plan Generator**
-- Generates a multi-day plan based on available hours  
-- Allocates tasks smartly using priority and urgency  
-- Shows daily breakdown of work  
+- Rule-based calculation using
+- Difficulty
+- Man-hours consumed
 
-### **5. Report Generation**
-- Export tasks as **CSV**  
-- Export study plan as **PDF**  
-- Stores files inside project directory  
+- Days remaining
+-Classifies tasks into :
+Low
 
----
-
+- Moderate - High - Overload **4. Study Plan Generator - Generates multi-day plan based on available hours - Uses prioritization and urgency to delegate tasks smartly - Provides daily breakdowns of work **5. Generation of Reports - Export tasks as **CSV** - Export the study plan as **PDF** - Stores files inside project directory ---
