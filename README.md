@@ -1,54 +1,54 @@
 # Smart Academic Planner & Load Calculator
 
-## 📌 Overview
-The **Smart Academic Planner** is logic-based productivity tool built using **Python and Streamlit**.  
-It helps students manage academic tasks, calculate study load, and generate an organized study plan based on deadlines, difficulty, and available study hours.
+Overview
+The **Smart Academic Planner** is a logic-based productivity tool built using **Python and Streamlit**.
 
-This project showcases **core Python concepts**:
+It allows students to prioritize academic activities, estimate study load, and systematically generate a study plan according to the deadline, difficulty, and number of hours available for studying.
+Projects highlighting the following **core Python concepts:
 - User management (Signup/Login)
 - Data input & processing
-- JSON-based data storage
+JSON-based data storage
 - Modular programming
-- File handling
-- PDF & CSV generation
-- UI development using Streamlit
+File handling
 
 
+- Generating PDF & CSV
+
+Streamlit-based UI development
 ---
+Features ■
+- **User Authentication** (Register/Login system)
+-  **Task Management
+- Adding tasks
+- View all tasks
+- Duplicate tasks
+- Delete tasks
+-  **Workload Calculation
+Difficulty, hours required, deadline
+Classification of activities as Low/ Moderate/ High / Overload
+-  **Smart Study Planner**
+- Logic-based plan generation
+- Plans days based on available hours
+-  **Export Options
+- Export tasks as **CSV**
+- Export study plan as **PDF**
 
-## ⭐ Features
-- 👤 **User Authentication** (Register/Login system)
-- 📝 **Task Management**
-  - Add tasks  
-  - View all tasks  
-  - Duplicate tasks  
-  - Delete tasks  
-- 📊 **Workload Calculation**
-  - Uses difficulty, hours required, and deadline
-  - Categorizes tasks into Low / Moderate / High / Overload
-- 📅 **Smart Study Planner**
-  - Logic-based plan generation  
-  - Plans days based on available hours  
-- 📤 **Export Options**
-  - Export tasks as **CSV**
-  - Export study plan as **PDF**
-  - Export study plan as **JSON**  
-- 🗂️ **Fully Modular Codebase**
-  - `models/`, `core/`, `report/`, `utils/` packages
+- Export study plan as **JSON**
 
----
+-**Fully Modular Codebase**
 
-## 🛠 Technologies & Tools Used
-
+- `models/`, `core/`, `report/`, `utils/` packages
+It is basically the application of management approaches to individual and organizational human resources in order to meet the needs of the firm and manage the workforce effectively.
+## Technologies & Tools Used
+Requirements
 -   Python 3
--   Streamlit
--   ReportLab
--   JSON
--   UUID
--   Datetime
+- Streamlit
 
-## 🗂️ Folder Structure
- 
+-   ReportLab
+- JSON
+- UUID
+-   Datetime
+Folder Structure
 academic_planner/
 │
 ├── app.py                    # Streamlit main file
@@ -70,37 +70,31 @@ academic_planner/
 ├── utils/
 │   ├── file_handler.py
 │   ├── date_utils.py
+
+
 │
+
 ├── report/
+
 │   └── generator.py
+
 │
+
 └── README.md
 
+Installation & Running the Project
 
-## 🚀 Installation & Running the Project
+1. Clone
 
-### 1. Clone
+git clone
 
-    git clone
-    cd academic-planner
+cd academic-planner
+Install Dependencies
+pip install streamlit reportlab
+3. Execute
 
-### 2. Install Dependencies
+streamlit run app.py
 
-    pip install streamlit reportlab
-
-### 3. Run
-
-    streamlit run app.py
-
-## 🧪 Testing Instructions
-
--   Register & login\
--   Add tasks\
--   Manage tasks\
--   Generate plan\
--   Export CSV/PDF
-
-## 👨‍💻 Author
-
-Aditi Dubey\
-VIT Bhopal
+Testing Instructions -   Register & login\. -   Add tasks; -   Manage tasks -   Create a plan - Export CSV/PDF 
+## Author: Aditi Dubey
+## Registration No. - 25BCE10906
