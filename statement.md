@@ -1,7 +1,7 @@
 Smart Academic Planner & Load Calculator
 Project Statement Document
 
-Problem Statement ????
+Problem Statement :
 Managing assignments, quizzes, exams, and projects throughout school proves to be a challenge for many students.
 Common challenges include:
 - Tracking deadlines across subjects
