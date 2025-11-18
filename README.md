@@ -96,5 +96,5 @@ pip install streamlit reportlab
 streamlit run app.py
 
 Testing Instructions -   Register & login\. -   Add tasks; -   Manage tasks -   Create a plan - Export CSV/PDF 
-## Author: Aditi Dubey
-## Registration No. - 25BCE10906
+### Author: Aditi Dubey
+### Registration No. - 25BCE10906
