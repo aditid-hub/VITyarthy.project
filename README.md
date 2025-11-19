@@ -1,100 +1,27 @@
-# Smart Academic Planner & Load Calculator
+The Smart Academic Planner serves as a logic-based productivity tool. It uses Python and Streamlit to help students. Students can manage academic tasks with it. They calculate study load and generate organized plans. These plans come from deadlines, difficulty levels, and available study hours.
 
-Overview
-The **Smart Academic Planner** is a logic-based productivity tool built using **Python and Streamlit**.
+This project highlights core Python concepts. It includes user management for signup and login. Data input and processing play a big role. JSON handles data storage. Modular programming keeps things organized. File handling supports various operations. PDF and CSV generation adds export features. UI development relies on Streamlit for the interface.
 
-It allows students to prioritize academic activities, estimate study load, and systematically generate a study plan according to the deadline, difficulty, and number of hours available for studying.
-Projects highlighting the following **core Python concepts:
-- User management (Signup/Login)
-- Data input & processing
-JSON-based data storage
-- Modular programming
-File handling
+Features stand out in several ways. User authentication handles register and login systems. Task management lets users add tasks. They view all tasks easily. Duplicating tasks saves time. Deleting tasks keeps lists clean.
 
+Workload calculation uses difficulty ratings, required hours, and deadlines. It categorizes tasks into low, moderate, high, or overload levels.
 
-- Generating PDF & CSV
+The smart study planner generates logic-based plans. It schedules days according to available hours.
 
-Streamlit-based UI development
----
-Features ■
-- **User Authentication** (Register/Login system)
--  **Task Management
-- Adding tasks
-- View all tasks
-- Duplicate tasks
-- Delete tasks
--  **Workload Calculation
-Difficulty, hours required, deadline
-Classification of activities as Low/ Moderate/ High / Overload
--  **Smart Study Planner**
-- Logic-based plan generation
-- Plans days based on available hours
--  **Export Options
-- Export tasks as **CSV**
-- Export study plan as **PDF**
+Export options include tasks as CSV files. Study plans export as PDF or JSON formats.
 
-- Export study plan as **JSON**
+The codebase remains fully modular. Packages like models, core, report, and utils structure the code neatly.
 
--**Fully Modular Codebase**
+Technologies and tools include Python 3 as the base. Streamlit builds the app. ReportLab creates PDFs. JSON manages data. UUID generates unique identifiers. Datetime handles time-related functions.
 
-- `models/`, `core/`, `report/`, `utils/` packages
-It is basically the application of management approaches to individual and organizational human resources in order to meet the needs of the firm and manage the workforce effectively.
-## Technologies & Tools Used
-Requirements
--   Python 3
-- Streamlit
+The folder structure starts with academic_planner as the main directory. It contains app.py as the Streamlit main file. The models folder holds user.py, task.py, and course.py. Core includes load_engine.py, planner.py, and validator.py. Storage has users.json, tasks.json, and courses.json. Utils covers file_handler.py and date_utils.py. Report contains generator.py. README.md sits at the root.
 
--   ReportLab
-- JSON
-- UUID
--   Datetime
-Folder Structure
-academic_planner/
-│
-├── app.py                    # Streamlit main file
-├── models/
-│   ├── user.py
-│   ├── task.py
-│   ├── course.py
-│
-├── core/
-│   ├── load_engine.py
-│   ├── planner.py
-│   ├── validator.py
-│
-├── storage/
-│   ├── users.json
-│   ├── tasks.json
-│   ├── courses.json
-│
-├── utils/
-│   ├── file_handler.py
-│   ├── date_utils.py
+Installation and running the project follow simple steps. First, clone the repository with git clone. Then change directory to academic-planner.
 
+Next, install dependencies using pip install streamlit reportlab.
 
-│
+To run it, use streamlit run app.py.
 
-├── report/
+Testing instructions involve registering and logging in. Add tasks to start. Manage tasks as needed. Generate a plan afterward. Export in CSV or PDF format.
 
-│   └── generator.py
-
-│
-
-└── README.md
-
-Installation & Running the Project
-
-1. Clone
-
-git clone
-
-cd academic-planner
-Install Dependencies
-pip install streamlit reportlab
-3. Execute
-
-streamlit run app.py
-
-Testing Instructions -   Register & login\. -   Add tasks; -   Manage tasks -   Create a plan - Export CSV/PDF 
-### Author: Aditi Dubey
-### Registration No. - 25BCE10906
+The author is Aditi Dubey from VIT Bhopal.
