@@ -1,79 +1,27 @@
-Smart Academic Planner & Load Calculator
-Project Statement Document
+Smart Academic Planner and Load Calculator. Project Statement Document.
 
-Problem Statement :
-Managing assignments, quizzes, exams, and projects throughout school proves to be a challenge for many students.
-Common challenges include:
-- Tracking deadlines across subjects
-- Estimating the time required for each task
-- Understanding which tasks have a higher workload
-- Prioritizing tasks effectively
+Problem Statement. Managing assignments, quizzes, exams, and projects throughout school turns out to be a real challenge for many students. Common challenges include tracking deadlines across different subjects. They also involve estimating the time required for each task. Students often struggle with understanding which tasks carry a higher workload. Prioritizing tasks effectively comes up as another issue. Planning a structured study schedule adds to the difficulties.
 
-- Planning a structured study schedule
+An incorrect system or no system at all leads to stress for students. It causes last-minute rushes. Productivity ends up being inconsistent as a result.
 
-Incorrect or no system leads to stress, last-minute rush, and inconsistent productivity for students.
+There is a clear need for a simple, rule-based tool. This tool helps students plan their academics in an efficient way.
 
-There is a need for a **simple, rule-based** that helps students plan their academics efficiently.
+Nwachukwu.
 
-Nwachukwu: ---
-Project Scope
-The following are included in the scope of the **Smart Academic Planner**:
-Included
-User account creation and login
-- Creating assignments or quizzes, projects, or exams etc.
-• Storing tasks with JSON
-- Load calculation by:
-- Task difficulty
-- Estimated hours
-- Deadline urgency
-Load classification: Low, Moderate, High, Overload
-Generate a daily study plan through logical rules.
+Project Scope. The scope of the Smart Academic Planner includes several key elements. User account creation and login form part of it. Creating assignments, quizzes, projects, or exams and so on gets covered too. Storing tasks with JSON handles the data side. Load calculation happens by considering task difficulty. It also factors in estimated hours. Deadline urgency plays a role in that process. Load classification sorts things into low, moderate, high, or overload categories. Generating a daily study plan relies on logical rules.
 
-- Exporting:
+Exporting tasks as CSV provides one option. Exporting the study plan as PDF offers another. The code stays fully modular in Python.
 
-- Tasks as CSV
+Target Users. The target audience for this project includes college students. They manage multiple subjects and deadlines all at once. School students work towards tests, assignments, and projects. Learners in coaching institutes plan their study routines with it. Anyone needing a structured academic planning tool can benefit.
 
-- Study plan as PDF
-- Fully modular Python code
----
+It proves particularly useful for students facing high-workload semesters.
 
-Target Users
+High-Level Features. User management handles registrations for users. It deals with login using stored credentials. Separate data keeps things organized for each user.
 
-Target audience for the project:
+Task management lets users add tasks with a name. They include the course details. Difficulty level gets specified. Hours required come next. Deadline and priority round out the inputs. Users can view all their tasks. Editing for redundant work stays possible. Deleting tasks works as needed.
 
-- **College Students** managing multiple subjects & deadlines
+The load calculation engine uses rule-based methods. It draws on difficulty ratings. Man-hours consumed factor in heavily. Days remaining influence the outcomes. This classifies tasks into low levels. Moderate comes after that. High and overload follow suit.
 
-- **School Students** working towards tests, assignments, and projects
-- **Learners in coaching institutes** planning study routines
-- Anyone requiring a structured academic planning tool
+The study plan generator creates multi-day plans. It bases them on available hours. Prioritization and urgency help delegate tasks in a smart way. Daily breakdowns of work make it practical.
 
-It is particularly useful for students dealing with high-workload semesters.
--
-High-Level Features
-**1. User Management
-- Handle user registrations
-- Login using stored credentials
-- Separate data for each user
-**2. Task Management **
-- Add tasks with:
-- Name
-
-Course
-- Difficulty
-- Hours required
-- Deadline
-- Priority
-- View all tasks
-- Redundant work
-- Delete tasks
-**3. Load Calculation Engine
-
-- Rule-based calculation using
-- Difficulty
-- Man-hours consumed
-
-- Days remaining
--Classifies tasks into :
-Low
-
-- Moderate - High - Overload **4. Study Plan Generator - Generates multi-day plan based on available hours - Uses prioritization and urgency to delegate tasks smartly - Provides daily breakdowns of work **5. Generation of Reports - Export tasks as **CSV** - Export the study plan as **PDF** - Stores files inside project directory ---
+Generation of reports includes exporting tasks as CSV. Exporting the study plan as PDF works too. Files get stored inside the project directory.
